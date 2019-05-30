@@ -35,7 +35,7 @@ public class UpdateStudentDemo {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-//			sessionFactory.close();
+			sessionFactory.close();
 		}
 	}
 
