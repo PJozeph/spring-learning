@@ -31,7 +31,6 @@ public class GettingCoursesAndReviewsDemo {
 			Course course = session.get(Course.class, courseId);
 			Query<Review> selectReviewsByCourseId = session.createQuery("SELECT r FROM Review r WHERE r.id=:courseId");
 			selectReviewsByCourseId.setParameter("courseId", course.getId());
-			
 
 			List<Review> courses = selectReviewsByCourseId.getResultList();
 
