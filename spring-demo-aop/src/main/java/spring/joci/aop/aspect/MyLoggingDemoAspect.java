@@ -15,5 +15,4 @@ public class MyLoggingDemoAspect {
 		System.err.println("========>> Executing before advice ");
 	}
 	
-	
 }
